@@ -17,7 +17,7 @@ bool czy_cyfra(char a){
 int main(int argc, char** argv) {
 	ifstream we("C:/cpp/dane.txt");
 	string ciag="", l="";
-	vector <string> liczby, numery_tel;
+	vector <string> liczby;
 	int i=0, j=0, w=0;
 	
 	we>>ciag;
