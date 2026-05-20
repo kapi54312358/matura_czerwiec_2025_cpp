@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
 				j++;
 			}
 			liczby.push_back(l);
-			i=j;
+			i=j-1;
 		}
 	}
 
